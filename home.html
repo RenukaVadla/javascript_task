@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script>
+            function registration()
+            {
+                window.location="registration.html";
+            }
+
+            </script>
+           
+    </head>
+
+    <body>
+    <form action="userpage.html" onsubmit="return loginValidate()">
+            Email<br>
+            <input id="email" type="text" name="email"><br>
+            <span id="loginEmail" style="color:crimson;"></span><br>
+            Password<br>
+            <input id="password" type="password" name="password"><br>
+            <span id="loginPassword" style="color:crimson;"></span><br>
+            <br>
+            <input type="submit" value="Login" ><br>
+    </form>
+        <input type="button" value="Registration" onclick="registration()">
+        <script src="loginvalidation.js"></script>
+    </body>    
+</html>
