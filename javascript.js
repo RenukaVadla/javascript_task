@@ -30,7 +30,6 @@ function validate()
        return false;
    }
 
-   alert(mobile!="");
    if(mobile!="")
    {
         if(applymobile==false)
